@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+
+h2{
+    font-size: 50px;
+}
+
+#inc {
+    padding: 20px;
+    background-color: mediumpurple;
+    margin-top: 40px;
+}
+
+#dec {
+    padding: 20px;
+    background-color: mediumpurple;
+    margin-top: 40px;
+}
+
+#res {
+    padding: 20px;
+    background-color: goldenrod;
+    margin-top: 40px;
+}
+
