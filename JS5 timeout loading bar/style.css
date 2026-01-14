@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+
+main {
+    height: 100%;
+    width: 100%;
+    background-color: midnightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#card {
+    width: 600px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.bar {
+    height: 20px;
+    width: 100%;
+    background-color: rgb(160, 158, 158);
+    border-radius: 20px;
+    margin-top: 50px;
+}
+
+.status {
+    width: 0%;
+    height: 100%;
+    background-color: green;
+    border-radius: 20px;
+}
+
+.bottom {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: lightskyblue;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: monospace;
+
+}
+
+button:hover {
+    background-color: lightblue;
+}
+
+span {
+    font-weight: bold;
+    color: blue;
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+}
