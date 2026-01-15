@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: crus;
+    src: url(Crustaceans-SignatureDEMO-Regular.otf);
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+
+main {
+    height: 100%;
+    width: 100%;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#card {
+    height: 550px;
+    width: 400px;
+    background-color: rgb(44, 44, 44);
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.image {
+position: relative;
+overflow: hidden;
+}
+
+img {
+    
+    height: 450px;
+    width: 100%;
+    border-radius: 15px;
+    object-fit: cover;
+    position: relative;
+    
+}
+
+
+h2 {
+    font-family: crus;
+    color: lightcoral;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 5px;
+    font-size: 30px;
+}
+
+.heart {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0) rotate(-60deg);
+    font-size: 90px;
+    color: rgb(234, 59, 59);
+    z-index: 10;
+    opacity: 0%;
+    transition: all ease 0.4s;
+}
+
+h3 {
+    color: white;
+}
+
+
+  
+
